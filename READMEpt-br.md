@@ -27,6 +27,7 @@ Github SSH: https://docs.github.com/pt/authentication/connecting-to-github-with-
 GitLab SSH: https://docs.gitlab.com/ee/user/ssh.html
 
 BitBucket SSH: https://bitbucket.org/account/settings/ssh-keys/
+## Comandos e informações úteis
 
 ### Alterar comentário do git com amend
 
