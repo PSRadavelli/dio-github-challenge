@@ -1,6 +1,6 @@
 #  DIO Git/GitHub Challenge
 
-# Esta descricao tambem esta disponivel em portugues no [READMEpt-br.md](https://github.com/PSRadavelli/dio-github-challenge/blob/develop/READMEpt-br.md)
+# Esta descricao tambem esta disponivel em [Português](https://github.com/PSRadavelli/dio-github-challenge/blob/develop/READMEpt-br.md)
 
 
 Dio challenge project about Git/Github
