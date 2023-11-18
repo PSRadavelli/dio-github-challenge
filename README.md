@@ -1,4 +1,4 @@
-# DIO Git/GitHub Challenge
+# DIO Git/GitHub Challenge, this repository is also avaiable in [Português](https://github.com/PSRadavelli/dio-github-challenge/blob/develop/READMEpt-br.md)
 
 Welcome to the DIO Git/GitHub Challenge! This project is designed to enhance your understanding of Git and GitHub, the dynamic duo of version control and code hosting. Whether you're a seasoned developer or just starting, this challenge is a fantastic opportunity to deepen your knowledge.
 
