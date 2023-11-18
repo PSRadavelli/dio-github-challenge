@@ -65,4 +65,34 @@ example:
 
 `git clone -b develop --single-branch https://github.com/PSRadavelli/webpack-study`
 
-`git stash apply` so you can save the differences in the branch for a posterior use
+### Stash
+
+You can use the `stash` command to save code changes for later use, typically after a merge or a similar operation.
+
+```bash
+git stash
+```
+
+After executing this command, your changes will be saved in the stash registry. To check them, use the following command:
+
+```bash
+git stash list
+```
+
+Apply the stash to save the differences in the branch for later use:
+
+```bash
+git stash apply
+```
+
+You can also apply the stash from a specific index by changing the number "0" as follows:
+
+```bash
+git stash apply stash@{0}
+```
+
+If you want to apply the stash changes and remove it from the list, you can use the command:
+
+```bash
+git stash pop stash@{0}
+```
