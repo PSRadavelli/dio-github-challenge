@@ -30,3 +30,39 @@ GitLab SSH: https://docs.gitlab.com/ee/user/ssh.html
 
 BitBucket SSH: https://bitbucket.org/account/settings/ssh-keys/
 
+## Some useful commands and information
+
+> You can press '.' on GitHub to enter the online GitHub editor
+> 
+
+> if you create a ".gitkeep" file inside a folder makes git force recognize the folder.
+> 
+
+## change git comment with amend
+
+`git commit --amend -m "new git comment"`
+if you dont add the '-m "comment" ' suffix it enters the VIM editor mode so you can edit it
+
+## Resetting commits
+
+get commit hash by `git log` command
+
+`git reset --soft <commithash>` removes the posterior commits and add it to the staging area
+
+`git reset --mixed <commithash>` the default git reset command, it adds to our tracked files the posterior commits
+
+`git reset --hard <commithash>` deletes all the posterior commit files directly
+
+## Remove from tracking
+
+`git restore <filename>`   
+
+## clone only a branch from repository
+
+`git clone -b branch_name --single-branch <repository_url>`
+
+example:
+
+`git clone -b develop --single-branch https://github.com/PSRadavelli/webpack-study`
+
+`git stash apply` so you can save the differences in the branch for a posterior use
