@@ -1,4 +1,4 @@
-# DIO Git/GitHub Challenge, this repository is also avaiable in [Português](https://github.com/PSRadavelli/dio-github-challenge/blob/develop/READMEpt-br.md)
+# DIO Git/GitHub Challenge, this repository is also available in [Português](https://github.com/PSRadavelli/dio-github-challenge/blob/develop/READMEpt-br.md)
 
 Welcome to the DIO Git/GitHub Challenge! This project is designed to enhance your understanding of Git and GitHub, the dynamic duo of version control and code hosting. Whether you're a seasoned developer or just starting, this challenge is a fantastic opportunity to deepen your knowledge.
 
@@ -41,6 +41,16 @@ Enhance your Git experience with these handy commands and tips:
 - **Remove from Tracking:** Untrack changes with `git restore <filename>`.
 - **Clone Specific Branch:** Clone only a branch with `git clone -b branch_name --single-branch <repository_url>`.
   - Example: `git clone -b develop --single-branch https://github.com/PSRadavelli/webpack-study`
+
+## Add, Commit, and Push
+
+Now, let's dive into the fundamental steps of contributing to a Git repository:
+
+- **Add Changes to Staging Area:** Use `git add <filename>` to stage changes for the next commit. You can also use `git add .` to stage all changes.
+
+- **Commit Changes:** After staging, commit changes with `git commit -m "Your commit message here"`. This records your changes in the project history.
+
+- **Push Changes to Remote Repository:** Finally, use `git push` to upload your committed changes to the remote repository, making them accessible to collaborators.
 
 ## Stash It for Later
 
