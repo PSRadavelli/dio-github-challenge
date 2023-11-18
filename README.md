@@ -7,6 +7,8 @@ Dio challenge project about Git/Github
 
 References to get informed about git:
 
+Be wise! Git doesn't mean only GitHub, Git is a version control tool, and GitHub is a website for hosting code that utilizes the Git tool, there are many different code hubs all over the internet such as GitLab and BitBucket
+
 https://git-scm.com/doc
 
 https://learn.microsoft.com/pt-br/devops/develop/git/what-is-git
