@@ -1,9 +1,10 @@
 # Desafio DIO
-
+# This description is also avaiable in [English](https://github.com/PSRadavelli/dio-github-challenge/blob/develop/README.md)
 Desafio de projeto sobre Git/Github
 
 Referencias para se informar sobre git:
 
+Seja sábio! Git não significa apenas GitHub. Git é uma ferramenta de controle de versão, e o GitHub é um site para hospedar código que utiliza a ferramenta Git. Existem muitos repositórios de código diferentes na internet, como GitLab e BitBucket.
 
 https://git-scm.com/doc
 
