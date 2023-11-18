@@ -83,11 +83,32 @@ Exemplo:
 git clone -b desenvolvimento --single-branch https://github.com/PSRadavelli/webpack-study
 ```
 
-### Aplicar Stash
+### Stash
 
+Voce pode utilizar o comando stash para salvar alterações de codigo para utilizar apos um merge ou algo parecido.
+
+```bash
+git stash
+``` 
+Após este comando as suas alterações ficarão salvas no registro do stash, para verifica-las basta usar o comando
+```bash
+  git stash list
+```
 Aplique o stash para salvar as diferenças no ramo para uso posterior:
 
 ```bash
 git stash apply
+```
+
+Você também pode usar o stash apply em um índice específico, no caso mudando o número "0" a Seguir
+
+```bash
+git stash apply stash@{0}
+```
+
+Caso você queira aplicar as mudanças do stash e remove-lo da lista pode-se usar o comando
+
+```bash
+git stash pop stash@{0}
 ```
 
